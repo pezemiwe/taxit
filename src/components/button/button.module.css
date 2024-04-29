@@ -1,0 +1,38 @@
+.primary,
+.secondary {
+  background: linear-gradient(
+    150.58deg,
+    rgba(92, 178, 58, 0.8) 0%,
+    rgba(4, 128, 2, 0.8) 100%
+  );
+  color: #ecf1f0;
+  border-radius: 10px;
+  width: 211px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.primary:hover {
+  background: linear-gradient(
+    150.58deg,
+    rgba(92, 178, 58, 1) 0%,
+    rgba(4, 128, 2, 1) 100%
+  );
+  transition: all 0.3s ease-in-out;
+}
+
+.primary:active,
+.secondary:active {
+  scale: 0.95;
+  transition: all 0.3s ease-in-out;
+}
+
+.secondary {
+  background: none;
+  background-color: #ffffff;
+  color: rgba(37, 167, 92, 1);
+}

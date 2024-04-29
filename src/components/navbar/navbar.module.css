@@ -1,0 +1,68 @@
+.nav,
+.navItems,
+.navpack,
+.btnpack {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.nav {
+  justify-content: space-between;
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.navItems {
+  font-style: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.logo {
+  margin-right: 12px;
+}
+
+.stroke {
+  width: 2px;
+  height: 27px;
+  background: #ffffff;
+  margin-left: 25px;
+}
+
+.navItemA,
+.navItemB {
+  color: #ecf1f0;
+  text-decoration: none;
+  padding: 2px 10px;
+}
+
+.navItemA {
+  margin-left: 20px;
+}
+
+.navItemB {
+  text-decoration: none;
+  color: #ecf1f0;
+  margin-left: 25px;
+}
+
+.navBtn {
+  margin-left: 25px;
+}
+
+.active {
+  border-bottom: 3px solid #25a75c;
+  transition: all 0.3s ease-in-out;
+}
+
+.inactive {
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease-in-out;
+}

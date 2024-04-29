@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  max-width: 1256px;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

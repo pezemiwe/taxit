@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 402.67px;
+  height: 388px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 92.5px 18px 0 40px;
+  border: 1px solid rgba(92, 178, 58, 0.27);
+  text-align: left;
+  margin: 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(15, 9, 25, 0.8);
+  margin-bottom: 12px;
+  line-height: 33px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #555555;
+  line-height: 29px;
+}
+
+.cardImage {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
